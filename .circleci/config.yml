@@ -1,0 +1,14 @@
+version: 2
+
+jobs:
+  build:
+    docker:
+      - image: circleci/php:7.1-cli-node
+    steps:
+      - run: php build.php
+      - run:
+          command: |
+            mkdir /tmp/artifacts
+            mv servers.json /tmp/artifacts
+      - store_artifacts:
+          path: /tmp/artifacts
