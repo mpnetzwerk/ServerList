@@ -5,6 +5,7 @@ jobs:
     docker:
       - image: circleci/php:7.1-cli-node
     steps:
+      - checkout
       - run: php build.php
       - run:
           command: |
