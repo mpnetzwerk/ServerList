@@ -1,7 +1,7 @@
 # ServerList
 A list of Minecraft: Pocket Edition servers
 
-[![CircleCI](https://circleci.com/gh/mpnetzwerk/ServerLust.svg?style=svg)](https://circleci.com/gh/mpnetzwerk/ServerList)
+[![CircleCI](https://circleci.com/gh/mpnetzwerk/ServerList.svg?style=svg)](https://circleci.com/gh/mpnetzwerk/ServerList)
 
 ## How to add a server
 
