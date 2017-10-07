@@ -1,6 +1,8 @@
 # ServerList
 A list of Minecraft: Pocket Edition servers
 
+[![CircleCI](https://circleci.com/gh/mpnetzwerk/ServerLust.svg?style=svg)](https://circleci.com/gh/mpnetzwerk/ServerList)
+
 ## How to add a server
 
 First, create a folder for your server's domain in the `servers`-folder. Folder names are always the reversed domain seperated by dots and then the port.
