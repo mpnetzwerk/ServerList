@@ -1,0 +1,12 @@
+IP: DokiaCraft.Clynx.tk
+PORT: 19132
+
+Wir bieten zurzeit an
+CityBuild
+Factions
+FreeBuild
+
+In Planung
+Minigame Server
+Ts3 Server
+Event
