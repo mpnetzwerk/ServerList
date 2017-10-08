@@ -1,0 +1,15 @@
+Auf dreambuild.de kannst du mit Freunden/Fremden bauen, kämpfen und erkunden.
+
+Wir bieten momentan unter anderem folgende Features an:
+- Grundstücke
+- FreeBuild (Grundstücke in einer normalen Welt)
+- KitPvP
+- Survival
+- Farmwelt ohne PvP
+- Shop
+- Freundesystem
+- Heiraten & mehr
+Wir hoffen du hast Spaß =)
+
+IP: play.dreambuild.de
+Port: 41171
