@@ -3,10 +3,15 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/php:7.1-cli-node
+      - image: circleci/php:7.1-browsers
     steps:
+      # Checkout branch
       - checkout
+      
+      # Build JSON file
       - run: php build.php
+      
+      # Store JSON artifact
       - run:
           command: |
             mkdir /tmp/artifacts
