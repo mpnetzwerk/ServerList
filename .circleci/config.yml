@@ -12,9 +12,8 @@ jobs:
       - run: php build.php
       
       # Store JSON artifact
-      - run:
-          command: |
-            mkdir /tmp/artifacts
-            mv servers.json /tmp/artifacts
+      - run: |
+          mkdir /tmp/artifacts
+          mv servers.json /tmp/artifacts
       - store_artifacts:
           path: /tmp/artifacts
