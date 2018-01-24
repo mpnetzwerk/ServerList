@@ -4,7 +4,7 @@
  * 
  * @param string $dirName
  */
-function checkDirectory(string $dirName) {
+function checkDirectory(string $dirName): void {
     global $serversArray;
 
     foreach(scandir($dirName) as $dirContent) {
