@@ -18,8 +18,9 @@
 ##
 
 [• Description](#-description)  
-[• How to add a Server](#-add-a-server)  
+[• Add a Server](#-add-a-server)  
 [• Report outdated Servers](#-report-outdated-servers)  
+[• Use the Data](#-use-the-data)  
 [• Contribution](#-contribution)  
 [• License](#%EF%B8%8F-license)
 
