@@ -1,5 +1,5 @@
 <h1 align="center">ServerList</h1>
-<p align="center">A list of Minecraft: Pocket Edition servers</p>
+<p align="center">A list of Minecraft: Bedrock Edition servers</p>
 
 <br>
 
@@ -24,7 +24,7 @@
 [• License](#%EF%B8%8F-license)
 
 ## 📙 Description
-TEST
+This is an advanced and expandable server list for Minecraft: Bedrock Edition servers. You can add your server with a pull request and fetch all servers including their name, description, IP and port in JSON format.
 
 ## 📌 Add a Server
 First, create a folder for your server's domain in the `servers`-folder. Folder names are always the reversed domain seperated by dots and then the port.
