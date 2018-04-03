@@ -12,12 +12,27 @@ function checkDirectory(string $dirName): void {
             if($dirContent !== "." AND $dirContent !== "..") {
                 if(is_file($dirName . "/" . $dirContent . "/name.txt")) {
                     $serverData = array(
-                        "name" => file_get_contents($dirName . "/" . $dirContent . "/name.txt")
+                        "name" => explode("\n", file_get_contents($dirName . "/" . $dirContent . "/name.txt"))[0]
                     );
     
                     if(is_file($dirName . "/" . $dirContent . "/description.txt")) {
-                        $serverData["description"] = file_get_contents($dirName . "/" . $dirContent . "/description.txt");
+                        $serverData["description"] = explode("\n", file_get_contents($dirName . "/" . $dirContent . "/description.txt"))[0];
                     }
+
+                    $dirNameParts = explode("/", $dirName);
+
+                    $serverIp = "";
+
+                    for($i = (count($dirNameParts) - 1); $i > 0; $i--) {
+                        $serverIp .= $dirNameParts[$i];
+
+                        if($i > 1) {
+                            $serverIp .= ".";
+                        }
+                    }
+
+                    $serverData["ip"] = $serverIp;
+                    $serverData["port"] = (int) $dirContent;
     
                     $serversArray[] = $serverData;
                 } else {
