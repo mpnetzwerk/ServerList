@@ -47,7 +47,7 @@ To make it easier to understand, we've created this example in the `example`-fol
 If a server doesn't exist anymore or is only available on a very old version for a long time, feel free to open an issue. We'll check it and remove the server from the list if it's correct.
 
 ## 🏗 Use the Data
-Our script generates always generates a JSON-file containing all servers including their IP address, port, name and description. You can get it with the [CircleCI-artifacts](https://circleci.com/gh/mpnetzwerk/ServerList) of each build, preferably via the CircleCI-API.
+Our script generates always generates a JSON-file containing all servers including their IP address, port, name and description. You can get it at the [CircleCI-artifacts](https://circleci.com/gh/mpnetzwerk/ServerList) of each build, preferably via the CircleCI-API.
 
 The JSON-file is built like this:
 
